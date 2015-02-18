@@ -1,0 +1,9 @@
+language: objective-c
+
+before_install: 
+- brew update
+- if brew outdated | grep -qx xctool; then brew upgrade xctool; fi
+
+script: 
+- xctool clean build -project BaseProject.xcodeproj -scheme "BaseProject [Test]" -sdk iphonesimulator
+- xctool test -project BaseProject.xcodeproj -scheme "BaseProject [Test]" -sdk iphonesimulator
