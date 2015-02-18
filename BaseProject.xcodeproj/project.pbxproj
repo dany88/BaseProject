@@ -14,6 +14,7 @@
 		779553231A8E685A00780961 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 779553221A8E685A00780961 /* Images.xcassets */; };
 		779553261A8E685A00780961 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 779553241A8E685A00780961 /* LaunchScreen.xib */; };
 		779553321A8E685A00780961 /* BaseProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779553311A8E685A00780961 /* BaseProjectTests.swift */; };
+		77BA34101A94E7A90076F379 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BA340F1A94E7A90076F379 /* SwiftyJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		779553301A8E685A00780961 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		779553311A8E685A00780961 /* BaseProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseProjectTests.swift; sourceTree = "<group>"; };
 		77BA34061A94DD4F0076F379 /* BridgingHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
+		77BA340F1A94E7A90076F379 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = SwiftyJSON/Source/SwiftyJSON.swift; sourceTree = SOURCE_ROOT; };
 		A60207390954D6FF28A97310 /* Pods-BaseProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-BaseProject/Pods-BaseProject.release.xcconfig"; sourceTree = "<group>"; };
 		B29C422D239328F6D3C81F72 /* Pods-BaseProject.test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject.test.xcconfig"; path = "Pods/Target Support Files/Pods-BaseProject/Pods-BaseProject.test.xcconfig"; sourceTree = "<group>"; };
 		CC0340381322154010B3CFF3 /* libPods-BaseProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BaseProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -87,6 +89,7 @@
 		779553151A8E685A00780961 /* BaseProject */ = {
 			isa = PBXGroup;
 			children = (
+				77BA340F1A94E7A90076F379 /* SwiftyJSON.swift */,
 				77BA34061A94DD4F0076F379 /* BridgingHeader.h */,
 				779553181A8E685A00780961 /* AppDelegate.swift */,
 				7795531D1A8E685A00780961 /* ViewController.swift */,
@@ -279,6 +282,7 @@
 				7795531E1A8E685A00780961 /* ViewController.swift in Sources */,
 				7795531C1A8E685A00780961 /* BaseProject.xcdatamodeld in Sources */,
 				779553191A8E685A00780961 /* AppDelegate.swift in Sources */,
+				77BA34101A94E7A90076F379 /* SwiftyJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
